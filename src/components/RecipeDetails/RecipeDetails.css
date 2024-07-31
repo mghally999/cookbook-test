@@ -74,3 +74,33 @@
   color: #fff;
   font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+  .recipe-details-initial {
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .recipe-details {
+    padding: 10px;
+  }
+
+  .recipe-details h2 {
+    font-size: 2rem;
+  }
+
+  .recipe-details img {
+    max-width: 100%;
+  }
+
+  .recipe-details ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .recipe-details li {
+    padding: 10px 20px;
+    margin-bottom: 5px;
+  }
+}

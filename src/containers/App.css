@@ -16,3 +16,42 @@
   overflow-y: auto;
   transition: transform 0.3s ease-in-out;
 }
+.sidebar-toggle {
+  background-color: #1e1e1e;
+  border: none;
+  color: #f9b331;
+  font-size: 2rem;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 20;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .sidebar.active {
+    transform: translateX(0);
+  }
+
+  .sidebar-toggle {
+    display: block;
+  }
+
+  .content-area {
+    margin-top: 40px;
+    padding: 20px;
+  }
+}

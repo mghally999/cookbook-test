@@ -1,7 +1,5 @@
 <div align="center">
 
-  <img src="./public/cookbook-logo.png" alt="logo" width="90" height="auto">
-
   <h2>Cookbook</h2>
 
   <h3>

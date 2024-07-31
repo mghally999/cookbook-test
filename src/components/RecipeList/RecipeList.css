@@ -53,3 +53,19 @@
   margin-right: 15px;
   border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+  .recipe-list h2 {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  .card {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .card img {
+    max-width: 50px;
+  }
+}

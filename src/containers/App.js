@@ -7,6 +7,7 @@ import "./App.css";
 function App() {
   const [recipes, setRecipes] = useState([]);
   const [selectedRecipeId, setSelectedRecipeId] = useState(null);
+  const [sidebarActive, setSidebarActive] = useState(false);
 
   useEffect(() => {
     const getRecipes = async () => {
@@ -18,13 +19,23 @@ function App() {
 
   const selectRecipe = (id) => {
     setSelectedRecipeId(id);
+    if (window.innerWidth <= 768) {
+      setSidebarActive(false);
+    }
+  };
+
+  const toggleSidebar = () => {
+    setSidebarActive(!sidebarActive);
   };
 
   const selectedRecipe = recipes.find((r) => r.id === selectedRecipeId);
 
   return (
     <div className="app-container">
-      <div className="sidebar">
+      <button onClick={toggleSidebar} className="sidebar-toggle">
+        ☰
+      </button>
+      <div className={`sidebar ${sidebarActive ? "active" : ""}`}>
         <RecipeList
           recipes={recipes}
           selectRecipe={selectRecipe}

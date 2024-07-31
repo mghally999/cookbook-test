@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <img src="./public/cookbook-logo.png" alt="logo" width="90" height="auto">
 
-## Available Scripts
+  <h2>Cookbook</h2>
 
-In the project directory, you can run:
+  <h3>
+    <a href="https://cookbook-restoguru.netlify.app/">
+      <strong>Demo Website</strong>
+    </a>
+  </h3>
 
-### `npm start`
+  <div align="center">
+    <a href="https://cookbook-restoguru.netlify.app/">View Demo</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  </div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <hr>
 
-### `npm test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- Brief -->
+<p align="center">
+The Cookbook App is a fun and user-friendly React application that lets you dive into a diverse collection of recipes. With a clean and modern interface, it's easy to navigate and find delicious recipes to try. You can get all the details you need, like descriptions, ingredients, and even who the recipe's author is, making it a great tool for both novice and experienced cooks.
+</p>
 
-### `npm run build`
+<!-- Screenshot -->
+<a align="center" href="https://cookbook-restoguru.netlify.app/">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot](./public/thumbnail-preview-1.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot](./public/thumbnail-preview-2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</a>
 
-### `npm run eject`
+## Table of contents
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Key Features](#key-features)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Installation](#installation)
+- [Author](#author)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Key Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Explore a wide range of recipes, from appetizers to desserts.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- View detailed recipe information, including author, description, and ingredients.
 
-## Learn More
+- Clean, modern UI that's easy to navigate.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Responsive design for use on any device.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Accessibility-focused to ensure everyone can use the app.
 
-### Code Splitting
+## My process
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Built with
 
-### Analyzing the Bundle Size
+- React
+- JavaScript
+- CSS (including CSS Grid and Flexbox)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### What I Learned
 
-### Making a Progressive Web App
+- **Efficient Component Design:** Focused on designing and implementing reusable components, ensuring a modular structure that enhances the maintainability of the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **State Management with React:** Effectively used React's state management to handle dynamic content updates, keeping the UI in sync with the latest data.
 
-### Advanced Configuration
+- **CSS for Styling and Layouts:** Crafted a visually cohesive and responsive design using CSS, ensuring that the app looks great on all devices. Paid special attention to Flexbox and Grid layouts for a clean and structured appearance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Visual Hierarchy and User Experience:** Prioritized creating a clear visual hierarchy and user-friendly interface, making it easy for users to navigate and find the recipes they're interested in.
 
-### Deployment
+- **Static Data Management:** Demonstrated the ability to manage and display static data, such as recipe details, effectively and efficiently.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Responsive Design Techniques:** Ensured the application is fully responsive, providing a seamless experience on various devices, from mobile phones to desktops.
 
-### `npm run build` fails to minify
+- **UI Enhancements:** Implemented subtle UI enhancements, like hover effects and active states, to make the app more interactive and engaging.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Version Control Practices:** Utilized Git for version control, ensuring a smooth workflow and efficient collaboration, with a focus on clean commit messages and branch management.
+
+Creating the Cookbook app was an enriching experience that allowed me to refine my expertise in React and UI/UX design. This project wasn't just about implementing features; it was an exercise in crafting a seamless user experience and ensuring smooth functionality across different devices. By focusing on a clean, responsive design and efficient state management, I was able to deliver a polished application that not only looks good but also performs well. This experience has reinforced my skills and affirmed my ability to tackle complex projects with a blend of creativity and technical know-how.
+
+### Installation
+
+- Clone this repo:
+
+```sh
+git clone https://github.com/mghally999/the-wild-oasis.git
+```
+
+- Install dependencies:
+
+```sh
+npm install
+```
+
+- Build command:
+
+```sh
+npm run build
+```
+
+- Live server:
+
+```sh
+npm start
+```
+
+### Author
+
+<b>👤 Mohammed Ghally</b>
+
+- LinkedIn - [@mghally999](https://www.linkedin.com/in/mghally999/)
+- Github: [@mghally999](https://github.com/mghally999)
+
+Feel free to contact me with any questions or feedback!

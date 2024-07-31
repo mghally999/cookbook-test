@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./public/cookbook-logo.png" alt="logo" width="90" height="auto">
+  <img src="./public/cookbook-logo.png" alt="logo" width="200" height="auto">
 
   <h2>Cookbook</h2>
 

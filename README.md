@@ -85,7 +85,7 @@ Creating the Cookbook app was an enriching experience that allowed me to refine 
 - Clone this repo:
 
 ```sh
-git clone https://github.com/mghally999/the-wild-oasis.git
+git clone https://github.com/mghally999/cookbook-test.git
 ```
 
 - Install dependencies:
